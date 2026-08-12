@@ -43,12 +43,28 @@ firmware/           固件代码和说明
 hardware/           EasyEDA 工程、PCB 检查资料、生产文件
 ```
 
+## 关键文档
+
+- [MVP：首版最小可行作品](docs/mvp.md)
+- [项目简介](docs/project-brief.md)
+- [用户故事与使用场景](docs/user-story.md)
+- [参赛定位](docs/competition-positioning.md)
+- [硬件规格草案](docs/hardware/hardware-spec.md)
+- [PCB v0.1 需求](docs/hardware/pcb-v0.1-requirements.md)
+- [打板前测试记录](docs/testing/pre-pcb-test-record.md)
+- [打板前 PCB 检查清单](hardware/pcb-checks/pre-fab-checklist.md)
+- [演示视频脚本](docs/media-script.md)
+- [开源发布检查清单](docs/open-source-release-checklist.md)
+
 ## 当前阶段
 
 当前仓库处于打板前规划阶段，已经先建立硬件规格、引脚规划、BOM 草案和 PCB 检查清单。下一步是在 EasyEDA 中完成原理图和 PCB，并根据首版打板结果更新文档。
 
 ## 打板前必须完成
 
+- [ ] 完成模块级验证：ESP32 + MPR121 + 音频输出
+- [ ] 完成导电涂料触摸测试
+- [ ] 完成导电纺织线触摸测试
 - [ ] 确定主控芯片和触摸检测方案
 - [ ] 确定音频输出方案
 - [ ] 完成原理图
@@ -56,4 +72,3 @@ hardware/           EasyEDA 工程、PCB 检查资料、生产文件
 - [ ] 检查电源、接口、固定孔、丝印和板边
 - [ ] 导出 Gerber、BOM、Pick and Place
 - [ ] 准备首版测试固件
-
