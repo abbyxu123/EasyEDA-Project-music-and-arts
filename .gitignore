@@ -1,0 +1,11 @@
+.DS_Store
+*.log
+node_modules/
+dist/
+build/
+.env
+.env.*
+
+# EasyEDA generated export folders can be large; commit final production files intentionally.
+hardware/easyeda/tmp/
+

@@ -1,0 +1,20 @@
+Category,Part,Example,Qty,Required,Notes
+Main control,MCU,ESP32-WROOM / ESP32-S3 module,1,Yes,Choose based on EasyEDA/JLC availability
+Touch,Capacitive touch controller,MPR121,1,Yes,12-channel touch input
+Audio,Audio playback module,DFPlayer Mini or equivalent,1,Maybe,Fastest path for first prototype
+Storage,MicroSD card socket,If using DFPlayer,1,Maybe,Needed for sample playback
+Amplifier,Small audio amplifier,PAM8302 / PAM8403,1,Yes,Match speaker impedance and power
+Speaker,Mini speaker,4 ohm 3W / 8 ohm 1W,1,Yes,Can also use external speaker
+Power,USB-C connector,USB-C 16P,1,Yes,Power and programming depending on MCU design
+Power,LiPo battery connector,JST-PH 2P,1,Yes,For wearable demo
+Power,Power switch,Slide switch,1,Yes,Must be easy to access
+Power,Charging/protection IC,TBD,1,Maybe,Use module first if unsure
+Interface,Touch connectors,JST / screw terminal / pin header,12,Yes,One per touch channel or grouped
+Interface,Audio jack,3.5mm socket,1,Maybe,Useful for external speaker
+Input,Mode button,Tact switch,1,Yes,Switch instrument mode
+Output,Status LED,LED + resistor,1,Yes,Debug and user feedback
+Mechanical,Mounting holes,M2/M3 holes,4,Yes,For frame and clothing module
+Material,Conductive paint,Bare Conductive or equivalent,1,Yes,For painting touch pads
+Material,Conductive thread,Stainless conductive thread,1,Yes,For textile touch pads
+Material,Conductive fabric,Copper/nickel fabric,1,Maybe,Useful for larger touch zones
+

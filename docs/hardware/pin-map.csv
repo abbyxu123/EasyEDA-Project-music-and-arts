@@ -1,0 +1,24 @@
+Signal,MCU Pin,Module Pin,Direction,Use,Notes
+I2C_SDA,TBD,MPR121 SDA,Bidirectional,Touch sensor data,Keep short and add pull-ups if module does not include them
+I2C_SCL,TBD,MPR121 SCL,Output,Touch sensor clock,Keep away from audio amplifier traces
+TOUCH_0,,MPR121 E0,Input,Paint or textile touch pad 0,Label as T0 on PCB
+TOUCH_1,,MPR121 E1,Input,Paint or textile touch pad 1,Label as T1 on PCB
+TOUCH_2,,MPR121 E2,Input,Paint or textile touch pad 2,Label as T2 on PCB
+TOUCH_3,,MPR121 E3,Input,Paint or textile touch pad 3,Label as T3 on PCB
+TOUCH_4,,MPR121 E4,Input,Paint or textile touch pad 4,Label as T4 on PCB
+TOUCH_5,,MPR121 E5,Input,Paint or textile touch pad 5,Label as T5 on PCB
+TOUCH_6,,MPR121 E6,Input,Paint or textile touch pad 6,Label as T6 on PCB
+TOUCH_7,,MPR121 E7,Input,Paint or textile touch pad 7,Label as T7 on PCB
+TOUCH_8,,MPR121 E8,Input,Paint or textile touch pad 8,Label as T8 on PCB
+TOUCH_9,,MPR121 E9,Input,Paint or textile touch pad 9,Label as T9 on PCB
+TOUCH_10,,MPR121 E10,Input,Paint or textile touch pad 10,Label as T10 on PCB
+TOUCH_11,,MPR121 E11,Input,Paint or textile touch pad 11,Label as T11 on PCB
+AUDIO_TX,TBD,Audio module RX,Output,Send track command,Needed if using DFPlayer-style module
+AUDIO_BUSY,TBD,Audio module BUSY,Input,Playback state,Optional
+AMP_EN,TBD,Amplifier EN,Output,Enable amplifier,Optional
+MODE_BUTTON,TBD,,Input,Switch instrument mode,Add debounce in firmware
+VOL_UP,TBD,,Input,Volume up,Optional
+VOL_DOWN,TBD,,Input,Volume down,Optional
+BAT_SENSE,TBD,,Input,Battery voltage sense,Optional voltage divider
+STATUS_LED,TBD,,Output,Status indicator,Use current-limiting resistor
+
